@@ -6,9 +6,8 @@ const people = [
 ]
 
 function getPetOwners(array, callback) {
-    
-
-    return petOwners
+      
+   
 }
 
 function sortPeople() {
