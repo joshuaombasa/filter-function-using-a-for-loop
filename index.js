@@ -6,11 +6,13 @@ const people = [
 ]
 
 function getPetOwners(array, callback) {
-    const petOwners = array.filter((person) => {
-        return person.hasPet
-    })
+    
 
     return petOwners
 }
 
-console.log(getPetOwners(people, 1))
+function sortPeople() {
+
+}
+
+console.log(getPetOwners(people, sortPeople))
