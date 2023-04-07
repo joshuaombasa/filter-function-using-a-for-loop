@@ -6,5 +6,7 @@ const people = [
 ]
 
 function getPetOwners(array, callback) {
-
+    people.filter((person) => {
+        
+    })
 }
