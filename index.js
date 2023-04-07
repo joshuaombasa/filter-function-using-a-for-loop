@@ -8,12 +8,16 @@ const people = [
 function getPetOwners(array, callback) {
       const petOwners = []
       for (let i=0; i<people.length; i++) {
-        const item = callback()
+        const item = callback(people[i])
+
+        petOwners.push(item)
       }
+
+      return petOwners
 }
 
-function sortPeople() {
-
+function sortPeople(person) {
+    return person.hasPet
 }
 
 console.log(getPetOwners(people, sortPeople))
