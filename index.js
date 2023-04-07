@@ -17,7 +17,9 @@ function getPetOwners(array, callback) {
 }
 
 function sortPeople(person) {
-    return person.hasPet
+    if (person.hasPet) {
+        return person
+    }
 }
 
 console.log(getPetOwners(people, sortPeople))
