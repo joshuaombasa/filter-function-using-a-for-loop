@@ -4,3 +4,7 @@ const people = [
     { name: "Alice", hasPet: true },
     { name: "Bob", hasPet: false },
 ]
+
+function getPetOwners(array, callback) {
+
+}
