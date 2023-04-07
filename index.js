@@ -8,7 +8,7 @@ const people = [
 function getPetOwners(array, callback) {
       const petOwners = []
       for (let i=0; i<people.length; i++) {
-        
+        const item = callback()
       }
 }
 
